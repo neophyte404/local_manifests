@@ -8,9 +8,9 @@
         <!-- Trees -->
         <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="neo" revision="13" clone-depth="1" />
         <project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_ginkgo" remote="neo" revision="13" clone-depth="1" />
-        <project path="kernel/xiaomi/ginkgo" name="kernel_xiaomi_ginkgo" remote="neo" revision="main" clone-depth="1" />
+        <project path="kernel/xiaomi/ginkgo" name="kernel_xiaomi_ginkgo" remote="neo" revision="erofs-susfs" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-aosp" name="aosp-clang" remote="clang" revision="17" clone-depth="1" />
 	<project path="vendor/private" name="vendor_private" remote="neo" revision="main" clone-depth="1" />
-	<project path="vendor/miuicamera" name="vendor_miuicamera" remote="neo" revision="anx" clone-depth="1" />
+	<project path="vendor/miuicamera" name="vendor_miuicamera" remote="neo" revision="leica" clone-depth="1" />
 	
 </manifest>
